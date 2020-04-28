@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+    font-size: 14px;
+}
+
+.header {
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 670px;   
+    justify-content: center;
+}
+
+/* Picture  and background image*/
+
+.header-upper {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background: url("../assets/images/forest.png") repeat;
+    position: absolute;
+}
+
+.header-purple {
+    width: 100%;
+    height: 100%;
+    opacity: 85%;
+}
+
+/*  block for header menu*/
+
+.header-block-menu {
+    position: relative;
+    display: flex;
+    width: 80%;
+    height: 100px;
+    justify-content: space-around;
+}
+
+/* first block menu*/
+
+.header-first {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-menu-logo {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+
+.header-text-logo {
+    width: 100%;
+}
+
+#header-text {
+    display: flex;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 400;
+    color: #00e0d0;
+    position: absolute;
+}
+
+/* second block menu*/
+
+.header-second {
+    width: 50%;
+    height: 100%;
+}
+
+
+
+
